@@ -20,9 +20,10 @@ ISR(TIMER1_COMPA_vect) {
 
 int main(void)
 {
-	//initialize full-stepping functionality with 120 Hz
+    	//initialize full-stepping functionality with 120 Hz
 	init_timer1_full_stepping(120, &channel);
-    sei();
+    	sei();
+	
     while (1) 
     {
     }
